@@ -1,0 +1,22 @@
+{
+  "name": "chatify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -C backend install && pnpm -C frontend install && pnpm -C frontend run build",
+    "start": "pnpm -C backend run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdusaid/chatify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Abdusaid/chatify/issues"
+  },
+  "homepage": "https://github.com/Abdusaid/chatify#readme"
+}
